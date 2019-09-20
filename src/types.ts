@@ -37,6 +37,7 @@ interface Variations {
 }
 
 interface Background {
+  fifth: string
   dark: string
 }
 interface Border {
@@ -58,6 +59,7 @@ interface Button {
 }
 interface Text {
   muted: string
+  inactive: string
   onDark: string
   onLight: string
 }

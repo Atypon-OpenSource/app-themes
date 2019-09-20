@@ -99,6 +99,7 @@ export const themeDark: Theme = {
       secondary: colors.white,
       tertiary: colors.ereaderGrey6,
       muted: colors.ereaderGrey5,
+      inactive: colors.ereaderGrey6,
       onDark: colors.white,
       onLight: colors.ereaderGrey4,
       error: colors.alertDanger,
