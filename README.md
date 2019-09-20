@@ -4,7 +4,7 @@
 
 # Usage
 
-To use the exported module, `import { css, createGlobalStyle, styled, theme, ThemeProvider } from '@manuscripts/fusion-theme'`.
+To use the exported module, `import { css, createGlobalStyle, styled, ThemedProps, ThemeProvider, withTheme } from 'app-themes'`.
 
 # Building
 
