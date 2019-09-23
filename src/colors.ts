@@ -24,7 +24,7 @@ export const workspaceSecondary = '#fff8d1'
 
 // Connect Brand Colors
 export const connectDark = '#004fb6'
-export const connectButtons = '#0475de'
+export const connectButtons = '#0473DB'
 export const connectPrimary = '#1b96f1'
 export const connectSecondary = '#00d1e2'
 
@@ -78,7 +78,7 @@ export const greyMuted = '#6c6c6c'
 export const greyMedium = '#949494'
 export const greyLight = '#bababa'
 export const greyXLight = '#f0f0f0'
-export const greyWhite = '#f7f7f7'
+export const greyWhite = '#fcfcfc'
 export const white = '#fff'
 
 // Shared Cool shades
