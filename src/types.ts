@@ -55,6 +55,7 @@ interface Button {
   default: Elements
   primary: Elements
   secondary: Elements
+  social: Elements
   error: Elements
 }
 interface Text {

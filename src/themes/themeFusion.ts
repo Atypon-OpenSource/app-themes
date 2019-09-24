@@ -68,6 +68,7 @@ export const themeFusion: Theme = {
           hover: colors.workspacePrimary,
         },
       },
+      social: theme.colors.button.social,
     },
     text: theme.colors.text,
   },

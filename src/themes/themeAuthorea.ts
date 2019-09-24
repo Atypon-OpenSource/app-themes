@@ -68,6 +68,7 @@ export const themeAuthorea: Theme = {
           hover: colors.authoreaPrimary,
         },
       },
+      social: theme.colors.button.social,
     },
     text: theme.colors.text,
   },

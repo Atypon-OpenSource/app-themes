@@ -107,6 +107,23 @@ export const theme: Theme = {
           hover: colors.connectButtons,
         },
       },
+      social: {
+        background: {
+          active: colors.greyWhite,
+          default: colors.white,
+          hover: colors.greyWhite,
+        },
+        border: {
+          active: colors.greyXLight,
+          default: colors.greyXLight,
+          hover: colors.greyXLight,
+        },
+        color: {
+          active: colors.greyMuted,
+          default: colors.greyMuted,
+          hover: colors.greyMuted,
+        },
+      },
       error: {
         background: {
           active: colors.alertDanger,

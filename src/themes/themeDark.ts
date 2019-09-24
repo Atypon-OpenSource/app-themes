@@ -93,6 +93,7 @@ export const themeDark: Theme = {
           hover: colors.connectPrimary,
         },
       },
+      social: theme.colors.button.social,
     },
     text: {
       primary: colors.white,

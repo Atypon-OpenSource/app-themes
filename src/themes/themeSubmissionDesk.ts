@@ -68,6 +68,7 @@ export const themeSubmissionDesk: Theme = {
           hover: colors.submissionPrimary,
         },
       },
+      social: theme.colors.button.social,
     },
     text: theme.colors.text,
   },

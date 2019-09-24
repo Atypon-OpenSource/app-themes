@@ -84,6 +84,7 @@ export const themeScitrus: Theme = {
           hover: colors.scitrusPrimary,
         },
       },
+      social: theme.colors.button.social,
     },
     text: theme.colors.text,
   },

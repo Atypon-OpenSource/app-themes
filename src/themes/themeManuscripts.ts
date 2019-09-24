@@ -107,6 +107,7 @@ export const themeManuscripts: Theme = {
           hover: colors.greyMedium,
         },
       },
+      social: theme.colors.button.social,
       error: {
         background: {
           active: colors.punchRed,
