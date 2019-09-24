@@ -29,16 +29,15 @@ export const connectPrimary = '#1b96f1'
 export const connectSecondary = '#00d1e2'
 
 // Scitrus Brand Colors
-export const scitrusDark = '#e57606'
-export const scitrusPrimary = '#fe8f1f'
+export const scitrusDark = '#FE8F1F'
+export const scitrusPrimary = '#fe9a35'
 export const scitrusLight = '#FFF6EC'
 export const scitrusSecondary = '#FF8888'
 
 // Manuscripts Brand Colors
 export const manuscriptsDark = '#2781a1'
 export const manuscriptsPrimary = '#48bee7'
-export const manuscriptsMedium = '#e1f5fe'
-export const manuscriptsLight = '#f0fafe'
+export const manuscriptsLight = '#e1f5fe'
 export const manuscriptsExtraLight = '#f2fbff'
 export const manuscriptsSecondary = '#fe8f1f'
 

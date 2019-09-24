@@ -50,7 +50,7 @@ export const themeManuscripts: Theme = {
     brand: {
       default: colors.manuscriptsPrimary,
       dark: colors.manuscriptsDark,
-      medium: colors.manuscriptsMedium,
+      medium: colors.manuscriptsPrimary,
       light: colors.manuscriptsLight,
       xlight: colors.manuscriptsExtraLight,
       secondary: colors.manuscriptsSecondary,
