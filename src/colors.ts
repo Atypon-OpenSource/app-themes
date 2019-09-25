@@ -82,7 +82,7 @@ export const greyMedium = '#949494'
 export const greyLight = '#bababa'
 export const greyLight2 = '#e2e2e2'
 export const greyXLight = '#f0f0f0'
-export const greyWhite = '#fcfcfc'
+export const greyWhite = '#fbfbfb'
 export const white = '#fff'
 
 // Shared Cool shades
