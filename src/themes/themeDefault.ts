@@ -114,9 +114,9 @@ export const theme: Theme = {
           hover: colors.greyWhite,
         },
         border: {
-          active: colors.greyXLight,
-          default: colors.greyXLight,
-          hover: colors.greyXLight,
+          active: colors.greyLight2,
+          default: colors.greyLight2,
+          hover: colors.greyLight2,
         },
         color: {
           active: colors.greyMuted,
