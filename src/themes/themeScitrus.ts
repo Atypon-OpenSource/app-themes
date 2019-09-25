@@ -22,7 +22,20 @@ export const themeScitrus: Theme = {
   name: 'Scitrus',
   colors: {
     background: theme.colors.background,
-    border: theme.colors.border,
+    border: {
+      error: colors.scitrusPrimary,
+      info: colors.alertInfo,
+      success: colors.alertSuccess,
+      warning: colors.alertWarning,
+      primary: colors.greyXLight,
+      secondary: colors.coolLight,
+      tertiary: colors.greyWhite,
+      field: {
+        active: colors.scitrusPrimary,
+        default: colors.scitrusGrey,
+        hover: colors.scitrusPrimary,
+      },
+    },
     brand: {
       default: colors.scitrusPrimary,
       dark: colors.scitrusDark,
@@ -35,12 +48,12 @@ export const themeScitrus: Theme = {
       default: {
         background: {
           active: colors.white,
-          default: colors.white,
+          default: 'rgba(254, 154, 53, 0.08)',
           hover: colors.white,
         },
         border: {
           active: colors.scitrusDark,
-          default: colors.scitrusDark,
+          default: colors.scitrusPrimary,
           hover: colors.scitrusDark,
         },
         color: {
@@ -84,11 +97,65 @@ export const themeScitrus: Theme = {
           hover: colors.scitrusPrimary,
         },
       },
-      social: theme.colors.button.social,
+      social: {
+        background: {
+          active: colors.greyWhite,
+          default: colors.white,
+          hover: colors.greyWhite,
+        },
+        border: {
+          active: colors.scitrusGrey,
+          default: colors.scitrusGrey,
+          hover: colors.scitrusGrey,
+        },
+        color: {
+          active: colors.scitrusButtonColor,
+          default: colors.scitrusButtonColor,
+          hover: colors.scitrusButtonColor,
+        },
+      },
     },
-    text: theme.colors.text,
+    text: {
+      primary: colors.scitrusDarkGrey,
+      secondary: colors.scitrusButtonColor,
+      tertiary: colors.greyLight,
+      muted: colors.scitrusCoolGrey,
+      inactive: colors.greyXLight,
+      onDark: colors.white,
+      onLight: colors.greyMedium,
+      error: colors.scitrusPrimary,
+      info: colors.alertInfo,
+      success: colors.alertSuccess,
+      warning: colors.alertWarning,
+    },
   },
-  font: theme.font,
+  font: {
+    family: {
+      sans: '"Montserrat", sans-serif',
+      serif: '"Roboto Slab", serif',
+    },
+    size: {
+      xlarge: '22px',
+      large: '18px',
+      medium: '16px',
+      normal: '14px',
+      small: '12px',
+    },
+    lineHeight: {
+      large: '24px',
+      normal: '18px',
+      small: '14px',
+    },
+    weight: {
+      xbold: 800,
+      bold: 700,
+      semibold: 600,
+      medium: 500,
+      normal: 400,
+      light: 300,
+      xlight: 100,
+    },
+  },
   grid: theme.grid,
   shadow: theme.shadow,
 }

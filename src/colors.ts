@@ -33,6 +33,10 @@ export const scitrusDark = '#FE8F1F'
 export const scitrusPrimary = '#fe9a35'
 export const scitrusLight = '#FFF6EC'
 export const scitrusSecondary = '#FF8888'
+export const scitrusDarkGrey = '#0d263c'
+export const scitrusGrey = '#D7DCDF'
+export const scitrusCoolGrey = '#afb8bf'
+export const scitrusButtonColor = '#5e6f7e'
 
 // Manuscripts Brand Colors
 export const manuscriptsDark = '#2781a1'
