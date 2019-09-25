@@ -48,7 +48,7 @@ export const themeScitrus: Theme = {
       default: {
         background: {
           active: colors.white,
-          default: 'rgba(254, 154, 53, 0.08)',
+          default: colors.white,
           hover: colors.white,
         },
         border: {
