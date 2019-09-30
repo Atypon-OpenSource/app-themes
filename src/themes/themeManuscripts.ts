@@ -19,13 +19,15 @@ import * as colors from '../colors'
 import { Theme } from '../types'
 import { theme } from './themeDefault'
 
+const fontFamily = '"Lato", sans-serif'
+
 export const themeManuscripts: Theme = {
   name: 'Manuscripts',
   colors: {
     background: {
       primary: colors.white,
-      secondary: colors.aliceBlue,
-      tertiary: colors.jellyBeanBlue,
+      secondary: colors.seashellGrey,
+      tertiary: colors.alabasterGrey,
       fifth: colors.greyWhite,
       dark: 'rgba(0,0,0,0.5)',
       error: colors.chablisRed,
@@ -38,9 +40,9 @@ export const themeManuscripts: Theme = {
       info: colors.manuscriptsPrimary,
       success: colors.springGreen,
       warning: colors.wheatYellow,
-      primary: colors.greyMedium,
+      primary: colors.dustyGrey,
       secondary: colors.mercuryGrey,
-      tertiary: colors.greyWhite,
+      tertiary: 'rgba(0, 0, 0, 0.1)',
       field: {
         active: colors.manuscriptsPrimary,
         default: colors.greyMedium,
@@ -48,66 +50,65 @@ export const themeManuscripts: Theme = {
       },
     },
     brand: {
+      dark: colors.jellyBeanBlue,
+      medium: colors.manuscriptsDark,
       default: colors.manuscriptsPrimary,
-      dark: colors.manuscriptsDark,
-      medium: colors.manuscriptsPrimary,
-      light: colors.manuscriptsLight,
-      xlight: colors.manuscriptsExtraLight,
+      light: colors.iceBlue,
+      xlight: colors.linkWaterBlue,
       secondary: colors.manuscriptsSecondary,
     },
     button: {
       default: {
         background: {
-          active: colors.manuscriptsPrimary,
+          active: 'transparent',
           default: 'transparent',
           hover: 'transparent',
         },
         border: {
-          active: colors.manuscriptsPrimary,
-          default: 'transparent',
-          hover: colors.manuscriptsPrimary,
+          active: colors.mercuryGrey,
+          default: colors.mercuryGrey,
+          hover: colors.mercuryGrey,
         },
         color: {
-          active: colors.white,
-          default: colors.manuscriptsPrimary,
+          active: colors.manuscriptsPrimary,
+          default: colors.greyDark,
           hover: colors.manuscriptsPrimary,
         },
       },
       primary: {
         background: {
-          active: colors.manuscriptsPrimary,
+          active: colors.manuscriptsDark,
           default: colors.manuscriptsPrimary,
           hover: 'transparent',
         },
         border: {
-          active: colors.manuscriptsPrimary,
+          active: colors.manuscriptsDark,
           default: colors.manuscriptsPrimary,
-          hover: colors.manuscriptsPrimary,
+          hover: colors.manuscriptsDark,
         },
         color: {
           active: colors.white,
           default: colors.white,
-          hover: colors.manuscriptsPrimary,
+          hover: colors.manuscriptsDark,
         },
       },
       secondary: {
         background: {
-          active: colors.greyMedium,
+          active: 'transparent',
           default: 'transparent',
-          hover: 'transparent',
+          hover: colors.seashellGrey,
         },
         border: {
-          active: colors.greyMedium,
+          active: 'transparent',
           default: 'transparent',
-          hover: colors.greyMedium,
+          hover: colors.seashellGrey,
         },
         color: {
-          active: colors.white,
-          default: colors.greyMedium,
-          hover: colors.greyMedium,
+          active: colors.manuscriptsPrimary,
+          default: colors.greyDark,
+          hover: colors.greyDark,
         },
       },
-      social: theme.colors.button.social,
       error: {
         background: {
           active: colors.punchRed,
@@ -125,10 +126,11 @@ export const themeManuscripts: Theme = {
           hover: colors.punchRed,
         },
       },
+      social: theme.colors.button.social,
     },
     text: {
       primary: colors.greyDark,
-      secondary: colors.greyMedium,
+      secondary: colors.dustyGrey,
       tertiary: colors.scorpionGrey,
       muted: colors.greyMuted,
       inactive: colors.greyXLight,
@@ -142,7 +144,7 @@ export const themeManuscripts: Theme = {
   },
   font: {
     family: {
-      sans: '"Lato", sans-serif',
+      sans: fontFamily,
       serif: 'serif',
     },
     size: {
@@ -164,7 +166,7 @@ export const themeManuscripts: Theme = {
       medium: 500,
       normal: 400,
       light: 300,
-      xlight: 100,
+      xlight: 200,
     },
   },
   grid: {

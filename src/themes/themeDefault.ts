@@ -114,9 +114,9 @@ export const theme: Theme = {
           hover: colors.greyWhite,
         },
         border: {
-          active: colors.greyLight2,
-          default: colors.greyLight2,
-          hover: colors.greyLight2,
+          active: colors.mercuryGrey,
+          default: colors.mercuryGrey,
+          hover: colors.mercuryGrey,
         },
         color: {
           active: colors.greyMuted,
