@@ -29,7 +29,7 @@ export const themeManuscripts: Theme = {
       secondary: colors.seashellGrey,
       tertiary: colors.alabasterGrey,
       fifth: colors.greyWhite,
-      dark: 'rgba(0,0,0,0.5)',
+      dark: colors.greyDark,
       error: colors.chablisRed,
       info: colors.powderBlue,
       success: colors.peppermintGreen,

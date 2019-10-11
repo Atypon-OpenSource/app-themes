@@ -1,6 +1,6 @@
 {
   "name": "app-themes",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Styling themes for react applications",
   "main": "dist/cjs",
   "module": "dist/es",
@@ -17,6 +17,7 @@
     "build": "npm-run-all --parallel build:*",
     "build:cjs": "tsc --outDir dist/cjs --module commonjs",
     "build:es": "tsc --outDir dist/es --declarationDir dist/types --declaration",
+    "dev": "npm-run-all --parallel 'build:* --project tsconfig.json --watch'",
     "lint": "tslint --project tsconfig.json",
     "prebuild": "rimraf dist",
     "prettier": "prettier --write \"src/**/*.ts\"",
@@ -36,9 +37,10 @@
   "dependencies": {
     "@types/styled-components": "^4.0.3",
     "styled-components": "^4.3.2",
-    "typeface-montserrat": "^0.0.54",
-    "typeface-roboto-slab": "^0.0.54",
     "typeface-lato": "^0.0.75",
+    "typeface-montserrat": "^0.0.54",
+    "typeface-roboto": "^0.0.75",
+    "typeface-roboto-slab": "^0.0.54",
     "typescript": "^3.6.3"
   }
 }

@@ -1177,6 +1177,11 @@ typeface-roboto-slab@^0.0.54:
   resolved "https://registry.yarnpkg.com/typeface-roboto-slab/-/typeface-roboto-slab-0.0.54.tgz#dc96cdd9b4794f3a9bc5fef030c06b2c252ca4a7"
   integrity sha512-8gdnku6ix/jYXSqG9idQLsyHxx4J7J1fkTo3msiHTdX84vpqV/LuRqNRn4anRu8tRR0D/U9BrZUKW11mnEdfFQ==
 
+typeface-roboto@^0.0.75:
+  version "0.0.75"
+  resolved "https://registry.yarnpkg.com/typeface-roboto/-/typeface-roboto-0.0.75.tgz#98d5ba35ec234bbc7172374c8297277099cc712b"
+  integrity sha512-VrR/IiH00Z1tFP4vDGfwZ1esNqTiDMchBEXYY9kilT6wRGgFoCAlgkEUMHb1E3mB0FsfZhv756IF0+R+SFPfdg==
+
 typescript@^3.6.3:
   version "3.6.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.3.tgz#fea942fabb20f7e1ca7164ff626f1a9f3f70b4da"

@@ -14,9 +14,11 @@
  * limitations under the License.
  */
 
-// Manuscripts Brand Colors
-export const manuscriptsDark = '#0b6bb8'
-export const manuscriptsPrimary = '#0d79d0'
-export const manuscriptsLight = '#bce7f6'
-export const manuscriptsXLight = '#ddf3fa'
-export const manuscriptsSecondary = '#ffbd26'
+// Authorea Brand Colors
+export const remarqDark = '#000'
+export const remarqPrimary = '#1f2124'
+export const remarqLight = '#3c3d3c'
+export const remarqSecondary = '#fed02f'
+
+export const remarqDarkTheme = '#2a2a33'
+export const remarqDarkThemeLight = '#3F3F47'

@@ -23,6 +23,8 @@ export { themeDark } from './themes/themeDark'
 export { theme } from './themes/themeDefault'
 export { themeFusion } from './themes/themeFusion'
 export { themeManuscripts } from './themes/themeManuscripts'
+export { themeRemarq } from './themes/themeRemarq'
+export { themeRemarqDark } from './themes/themeRemarqDark'
 export { themeScitrus } from './themes/themeScitrus'
 export { themeSubmissionDesk } from './themes/themeSubmissionDesk'
 
