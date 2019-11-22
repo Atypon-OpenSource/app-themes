@@ -110,23 +110,7 @@ export const themeRemarq: Theme = {
           hover: colors.remarqPrimary,
         },
       },
-      social: {
-        background: {
-          active: colors.greyWhite,
-          default: colors.white,
-          hover: colors.greyWhite,
-        },
-        border: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: 'transparent',
-        },
-        color: {
-          active: colors.greyMuted,
-          default: colors.greyMuted,
-          hover: colors.greyMuted,
-        },
-      },
+      social: theme.colors.button.social,
     },
     text: {
       primary: colors.remarqLight,
