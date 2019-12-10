@@ -45,7 +45,23 @@ export const themeScitrus: Theme = {
       secondary: colors.scitrusSecondary,
     },
     button: {
-      default: theme.colors.button.default,
+      default: {
+        background: {
+          active: colors.white,
+          default: colors.white,
+          hover: colors.white,
+        },
+        border: {
+          active: colors.scitrusDark,
+          default: colors.scitrusPrimary,
+          hover: colors.scitrusDark,
+        },
+        color: {
+          active: colors.scitrusDark,
+          default: 'rgba(13, 38, 60, 0.75)',
+          hover: colors.scitrusDark,
+        },
+      },
       error: theme.colors.button.default,
       primary: {
         background: {
@@ -66,9 +82,9 @@ export const themeScitrus: Theme = {
       },
       secondary: {
         background: {
-          active: colors.white,
+          active: colors.coolLight,
           default: colors.white,
-          hover: colors.white,
+          hover: colors.coolLight,
         },
         border: {
           active: colors.scitrusDark,
@@ -77,7 +93,7 @@ export const themeScitrus: Theme = {
         },
         color: {
           active: colors.scitrusPrimary,
-          default: 'rgba(13, 38, 60, 0.75)',
+          default: colors.scitrusPrimary,
           hover: colors.scitrusPrimary,
         },
       },
