@@ -82,9 +82,9 @@ export const themeScitrus: Theme = {
       },
       secondary: {
         background: {
-          active: colors.coolLight,
+          active: colors.white,
           default: colors.white,
-          hover: colors.coolLight,
+          hover: colors.white,
         },
         border: {
           active: colors.scitrusDark,
@@ -93,7 +93,7 @@ export const themeScitrus: Theme = {
         },
         color: {
           active: colors.scitrusPrimary,
-          default: colors.scitrusPrimary,
+          default: 'rgba(13, 38, 60, 0.75)',
           hover: colors.scitrusPrimary,
         },
       },

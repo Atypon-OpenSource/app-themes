@@ -44,7 +44,7 @@ export const white = '#fff'
 
 /* SHARED COOL SHADES */
 export const coolLight = '#d7f3ff'
-export const coolXLight = '#f7fbff'
+export const coolXLight = '#fafbfc'
 
 /* SHARED ALERT SHADES */
 export const alertWarning = '#bc4300'
