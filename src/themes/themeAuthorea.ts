@@ -22,7 +22,20 @@ export const themeAuthorea: Theme = {
   name: 'Authorea',
   colors: {
     background: theme.colors.background,
-    border: theme.colors.border,
+    border: {
+      error: colors.alertDanger,
+      info: colors.alertInfo,
+      success: colors.alertSuccess,
+      warning: colors.alertWarning,
+      primary: colors.greyXLight,
+      secondary: colors.coolLight,
+      tertiary: colors.greyWhite,
+      field: {
+        active: colors.authoreaPrimary,
+        default: colors.greyMedium,
+        hover: colors.authoreaPrimary,
+      },
+    },
     brand: {
       default: colors.authoreaPrimary,
       dark: colors.authoreaDark,
