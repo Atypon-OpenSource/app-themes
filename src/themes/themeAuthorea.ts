@@ -21,7 +21,17 @@ import { theme } from './themeDefault'
 export const themeAuthorea: Theme = {
   name: 'Authorea',
   colors: {
-    background: theme.colors.background,
+    background: {
+      primary: colors.white,
+      secondary: colors.white,
+      tertiary: colors.coolLight,
+      fifth: colors.greyWhite,
+      dark: colors.greyDark,
+      error: colors.alertDangerLight,
+      info: colors.alertInfoLight,
+      success: colors.alertSuccessLight,
+      warning: colors.alertWarningLight,
+    },
     border: {
       error: colors.alertDanger,
       info: colors.alertInfo,

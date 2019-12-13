@@ -26,7 +26,7 @@ export const themeRemarq: Theme = {
   colors: {
     background: {
       primary: colors.marbleGrey,
-      secondary: colors.seashellGrey,
+      secondary: colors.white,
       tertiary: colors.alabasterGrey,
       fifth: colors.greyWhite,
       dark: '#1f2124',
