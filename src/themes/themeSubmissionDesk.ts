@@ -23,7 +23,7 @@ export const themeSubmissionDesk: Theme = {
   colors: {
     background: {
       primary: colors.white,
-      secondary: colors.white,
+      secondary: colors.coolXLight,
       tertiary: colors.coolLight,
       fifth: colors.greyWhite,
       dark: colors.greyDark,

@@ -23,9 +23,9 @@ export const themeAuthorea: Theme = {
   colors: {
     background: {
       primary: colors.white,
-      secondary: colors.white,
+      secondary: colors.greyWhite,
       tertiary: colors.coolLight,
-      fifth: colors.greyWhite,
+      fifth: colors.white,
       dark: colors.greyDark,
       error: colors.alertDangerLight,
       info: colors.alertInfoLight,
