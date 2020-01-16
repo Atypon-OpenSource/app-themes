@@ -1,5 +1,5 @@
 /*!
- * © 2019 Atypon Systems LLC
+ * © 2020 Atypon Systems LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -62,6 +62,57 @@ export const themeManuscripts: Theme = {
         background: {
           active: 'transparent',
           default: 'transparent',
+          hover: colors.manuscriptsXXL,
+        },
+        border: {
+          active: colors.manuscriptsXXL,
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        color: {
+          active: colors.manuscriptsPrimary,
+          default: colors.manuscriptsPrimary,
+          hover: colors.manuscriptsPrimary,
+        },
+      },
+      icon: {
+        background: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        border: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        color: {
+          active: colors.manuscriptsIcons,
+          default: colors.greyDark,
+          hover: colors.manuscriptsIcons,
+        },
+      },
+      primary: {
+        background: {
+          active: colors.manuscriptsDark,
+          default: colors.manuscriptsPrimary,
+          hover: colors.manuscriptsDark,
+        },
+        border: {
+          active: colors.manuscriptsDark,
+          default: colors.manuscriptsPrimary,
+          hover: colors.manuscriptsDark,
+        },
+        color: {
+          active: colors.white,
+          default: colors.white,
+          hover: colors.white,
+        },
+      },
+      secondary: {
+        background: {
+          active: 'transparent',
+          default: 'transparent',
           hover: 'transparent',
         },
         border: {
@@ -73,40 +124,6 @@ export const themeManuscripts: Theme = {
           active: colors.manuscriptsPrimary,
           default: colors.greyDark,
           hover: colors.manuscriptsPrimary,
-        },
-      },
-      primary: {
-        background: {
-          active: colors.manuscriptsDark,
-          default: colors.manuscriptsPrimary,
-          hover: 'transparent',
-        },
-        border: {
-          active: colors.manuscriptsDark,
-          default: colors.manuscriptsPrimary,
-          hover: colors.manuscriptsDark,
-        },
-        color: {
-          active: colors.white,
-          default: colors.white,
-          hover: colors.manuscriptsDark,
-        },
-      },
-      secondary: {
-        background: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: colors.seashellGrey,
-        },
-        border: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: colors.seashellGrey,
-        },
-        color: {
-          active: colors.manuscriptsPrimary,
-          default: colors.greyDark,
-          hover: colors.greyDark,
         },
       },
       error: {

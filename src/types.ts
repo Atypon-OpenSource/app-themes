@@ -1,5 +1,5 @@
 /*!
- * © 2019 Atypon Systems LLC
+ * © 2020 Atypon Systems LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -56,7 +56,10 @@ interface Button {
   primary: Elements
   secondary: Elements
   social: Elements
-  error: Elements
+  icon: Elements
+  error?: Elements
+  success?: Elements
+  warning?: Elements
 }
 interface Text {
   muted: string
@@ -129,19 +132,4 @@ export interface Theme {
   font: Font
   grid: Grid
   shadow: Shadow
-}
-
-interface CoolColors {
-  light: string
-  xLight: string
-}
-interface GreyColors {
-  black: string
-  dark: string
-  medium: string
-  muted: string
-  light: string
-  xLight: string
-  greyWhite: string
-  white: string
 }

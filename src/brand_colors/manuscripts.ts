@@ -1,5 +1,5 @@
 /*!
- * © 2019 Atypon Systems LLC
+ * © 2020 Atypon Systems LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,4 +19,6 @@ export const manuscriptsDark = '#0b6bb8'
 export const manuscriptsPrimary = '#0d79d0'
 export const manuscriptsLight = '#bce7f6'
 export const manuscriptsXLight = '#ddf3fa'
+export const manuscriptsXXL = '#f2fbfc'
 export const manuscriptsSecondary = '#ffbd26'
+export const manuscriptsIcons = '#1a9bc7'

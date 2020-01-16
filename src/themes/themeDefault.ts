@@ -1,5 +1,5 @@
 /*!
- * © 2019 Atypon Systems LLC
+ * © 2020 Atypon Systems LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -73,6 +73,23 @@ export const theme: Theme = {
           hover: colors.greyMuted,
         },
       },
+      icon: {
+        background: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        border: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        color: {
+          active: colors.connectPrimary,
+          default: colors.greyMedium,
+          hover: colors.connectPrimary,
+        },
+      },
       primary: {
         background: {
           active: colors.connectDark,
@@ -122,23 +139,6 @@ export const theme: Theme = {
           active: colors.greyMuted,
           default: colors.greyMuted,
           hover: colors.greyMuted,
-        },
-      },
-      error: {
-        background: {
-          active: colors.alertDanger,
-          default: colors.alertDanger,
-          hover: 'transparent',
-        },
-        border: {
-          active: colors.alertDanger,
-          default: colors.alertDanger,
-          hover: colors.alertDanger,
-        },
-        color: {
-          active: colors.white,
-          default: colors.white,
-          hover: colors.alertDanger,
         },
       },
     },
