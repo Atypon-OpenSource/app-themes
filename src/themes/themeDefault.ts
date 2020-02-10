@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-import 'typeface-montserrat'
-import 'typeface-roboto-slab'
 import * as colors from '../colors'
 import { Theme } from '../types'
 

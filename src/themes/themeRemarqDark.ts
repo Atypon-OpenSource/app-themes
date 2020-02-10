@@ -14,7 +14,6 @@
  * limitations under the License.
  */
 
-import 'typeface-roboto'
 import * as colors from '../colors'
 import { Theme } from '../types'
 import { themeRemarq as theme } from './themeRemarq'
