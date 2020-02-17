@@ -1,6 +1,6 @@
 {
   "name": "app-themes",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Styling themes for react applications",
   "main": "dist/cjs",
   "module": "dist/es",
@@ -23,8 +23,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@types/styled-components": "^4.4.2",
-    "styled-components": "^5.0.1"
+    "@types/styled-components": "4.4.2",
+    "styled-components": "5.0.0"
   },
   "devDependencies": {
     "husky": "^4.2.1",
@@ -36,9 +36,5 @@
     "tslint-config-standard": "^9.0.0",
     "tslint-plugin-prettier": "^2.1.0",
     "typescript": "^3.7.5"
-  },
-  "peerDependencies": {
-    "@types/styled-components": "^4.4.2",
-    "styled-components": "^5.0.1"
   }
 }
