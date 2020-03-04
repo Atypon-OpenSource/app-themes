@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import * as colors from '../colors'
+import * as colors from '../colors/colors'
 import { Theme } from '../types'
 
 export const theme: Theme = {
@@ -22,14 +22,14 @@ export const theme: Theme = {
   colors: {
     background: {
       primary: colors.white,
-      secondary: colors.coolXLight,
-      tertiary: colors.coolLight,
+      secondary: colors.greyWhite,
+      tertiary: colors.greyXLight,
       fifth: colors.greyWhite,
       dark: colors.greyDark,
-      error: colors.alertDangerLight,
-      info: colors.alertInfoLight,
-      success: colors.alertSuccessLight,
-      warning: colors.alertWarningLight,
+      error: colors.white,
+      info: colors.white,
+      success: colors.white,
+      warning: colors.white,
     },
     border: {
       error: colors.alertDanger,

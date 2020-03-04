@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import * as colors from '../colors'
+import * as colors from '../colors/colors'
 import { Theme } from '../types'
 import { theme } from './themeDefault'
 
