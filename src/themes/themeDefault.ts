@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import * as colors from '../colors/colors'
+import * as colors from '../colors'
 import { Theme } from '../types'
 
 export const theme: Theme = {
