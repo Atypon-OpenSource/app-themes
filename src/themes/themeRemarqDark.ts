@@ -19,8 +19,8 @@ import { Theme } from '../types'
 import { themeRemarq as theme } from './themeRemarq'
 
 export const themeRemarqDark: Theme = {
-  name: 'RemarqDark',
   ...theme,
+  name: 'RemarqDark',
   colors: {
     background: {
       ...theme.colors.background,

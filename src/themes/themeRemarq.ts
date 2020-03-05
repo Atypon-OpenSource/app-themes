@@ -21,8 +21,8 @@ import { theme } from './themeDefault'
 const fontFamily = '"Roboto", sans-serif'
 
 export const themeRemarq: Theme = {
-  name: 'Remarq',
   ...theme,
+  name: 'Remarq',
   colors: {
     background: {
       primary: colors.marbleGrey,

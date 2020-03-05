@@ -19,8 +19,8 @@ import { Theme } from '../types'
 import { theme } from './themeDefault'
 
 export const themeFusion: Theme = {
-  name: 'Fusion',
   ...theme,
+  name: 'Fusion',
   colors: {
     ...theme.colors,
     brand: {

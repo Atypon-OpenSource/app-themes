@@ -19,8 +19,8 @@ import { Theme } from '../types'
 import { theme } from './themeDefault'
 
 export const themeScitrus: Theme = {
-  name: 'Scitrus',
   ...theme,
+  name: 'Scitrus',
   colors: {
     ...theme.colors,
     border: {

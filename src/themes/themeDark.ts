@@ -19,8 +19,8 @@ import { Theme } from '../types'
 import { theme } from './themeDefault'
 
 export const themeDark: Theme = {
-  name: 'eReader',
   ...theme,
+  name: 'eReader',
   colors: {
     ...theme.colors,
     background: {

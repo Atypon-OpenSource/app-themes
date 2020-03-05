@@ -19,8 +19,8 @@ import { Theme } from '../types'
 import { theme } from './themeDefault'
 
 export const themeAuthorea: Theme = {
-  name: 'Authorea',
   ...theme,
+  name: 'Authorea',
   colors: {
     ...theme.colors,
     border: {

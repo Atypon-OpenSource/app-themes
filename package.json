@@ -1,6 +1,6 @@
 {
   "name": "app-themes",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Styling themes for react applications",
   "main": "dist/cjs",
   "module": "dist/es",

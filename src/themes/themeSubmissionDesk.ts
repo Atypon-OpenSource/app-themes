@@ -19,8 +19,8 @@ import { Theme } from '../types'
 import { theme } from './themeDefault'
 
 export const themeSubmissionDesk: Theme = {
-  name: 'Submission Desk',
   ...theme,
+  name: 'Submission Desk',
   colors: {
     ...theme.colors,
     brand: {

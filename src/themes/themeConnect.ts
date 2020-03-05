@@ -18,6 +18,6 @@ import { Theme } from '../types'
 import { theme } from './themeDefault'
 
 export const themeConnect: Theme = {
-  name: 'Connect',
   ...theme,
+  name: 'Connect',
 }
