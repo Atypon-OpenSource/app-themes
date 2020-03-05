@@ -18,29 +18,20 @@ import * as colors from '../colors/colors'
 import { Theme } from '../types'
 import { themeRemarq as theme } from './themeRemarq'
 
-const fontFamily = '"Roboto", sans-serif'
-
 export const themeRemarqDark: Theme = {
   name: 'RemarqDark',
+  ...theme,
   colors: {
     background: {
+      ...theme.colors.background,
       primary: colors.remarqDarkTheme,
       secondary: colors.seashellGrey,
-      tertiary: colors.alabasterGrey,
-      fifth: colors.white,
-      dark: '#ffffff',
-      error: colors.chablisRed,
-      info: colors.powderBlue,
-      success: colors.peppermintGreen,
-      warning: colors.butteryYellow,
+      dark: colors.white,
     },
     border: {
-      error: colors.alertDanger,
-      info: colors.alertInfo,
-      success: colors.alertSuccess,
-      warning: colors.alertWarning,
+      ...theme.colors.border,
       primary: colors.greyDark,
-      secondary: colors.coolLight,
+      secondary: colors.greyLight,
       tertiary: colors.greyWhite,
       field: {
         active: colors.greyMedium,
@@ -57,16 +48,13 @@ export const themeRemarqDark: Theme = {
       secondary: colors.remarqSecondary,
     },
     button: {
+      ...theme.colors.button,
       default: {
+        ...theme.colors.button.default,
         background: {
           active: 'rgba(255,255,255,0.1)',
           default: 'transparent',
           hover: 'rgba(255,255,255,0.1)',
-        },
-        border: {
-          active: colors.remarqSecondary,
-          default: colors.remarqSecondary,
-          hover: colors.remarqSecondary,
         },
         color: {
           active: colors.remarqSecondary,
@@ -74,7 +62,6 @@ export const themeRemarqDark: Theme = {
           hover: colors.remarqSecondary,
         },
       },
-      icon: theme.colors.button.icon,
       primary: {
         background: {
           active: colors.remarqSecondary,
@@ -87,9 +74,9 @@ export const themeRemarqDark: Theme = {
           hover: colors.remarqSecondary,
         },
         color: {
-          active: colors.remarqDark,
+          active: colors.black,
           default: colors.remarqPrimary,
-          hover: colors.remarqDark,
+          hover: colors.black,
         },
       },
       secondary: {
@@ -128,58 +115,13 @@ export const themeRemarqDark: Theme = {
       },
     },
     text: {
+      ...theme.colors.text,
       primary: colors.white,
-      secondary: colors.paleGrey,
-      tertiary: colors.greyLight,
+      secondary: colors.marbleGrey,
       muted: colors.greyLight,
       inactive: colors.remarqPrimary,
-      onDark: colors.white,
-      onLight: colors.paleGrey,
-      error: colors.alertDanger,
-      info: colors.alertInfo,
-      success: colors.alertSuccess,
-      warning: colors.alertWarning,
+      onLight: colors.marbleGrey,
     },
-  },
-  font: {
-    family: {
-      sans: fontFamily,
-      serif: 'serif',
-    },
-    size: {
-      xlarge: '20px',
-      large: '18px',
-      medium: '16px',
-      normal: '14px',
-      small: '12px',
-    },
-    lineHeight: {
-      large: '24px',
-      normal: '16px',
-      small: '14px',
-    },
-    weight: {
-      xbold: 900,
-      bold: 700,
-      semibold: 500,
-      medium: 500,
-      normal: 400,
-      light: 300,
-      xlight: 100,
-    },
-  },
-  grid: {
-    unit: 4,
-    radius: {
-      default: '0',
-      small: '0',
-      rounder: '16px',
-    },
-    mobile: 360,
-    tablet: 768,
-    smallDesktop: 1024,
-    desktop: 1280,
-    largeDesktop: 1920,
   },
   shadow: {
     boxShadow: '0 0 10px 0 rgba(255, 255, 255, 0.05)',

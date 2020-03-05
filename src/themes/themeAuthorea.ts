@@ -20,26 +20,11 @@ import { theme } from './themeDefault'
 
 export const themeAuthorea: Theme = {
   name: 'Authorea',
+  ...theme,
   colors: {
-    background: {
-      primary: colors.white,
-      secondary: colors.greyWhite,
-      tertiary: colors.coolLight,
-      fifth: colors.white,
-      dark: colors.greyDark,
-      error: colors.alertDangerLight,
-      info: colors.alertInfoLight,
-      success: colors.alertSuccessLight,
-      warning: colors.alertWarningLight,
-    },
+    ...theme.colors,
     border: {
-      error: colors.alertDanger,
-      info: colors.alertInfo,
-      success: colors.alertSuccess,
-      warning: colors.alertWarning,
-      primary: colors.greyXLight,
-      secondary: colors.coolLight,
-      tertiary: colors.greyWhite,
+      ...theme.colors.border,
       field: {
         active: colors.authoreaPrimary,
         default: colors.greyMedium,
@@ -55,9 +40,9 @@ export const themeAuthorea: Theme = {
       secondary: colors.authoreaSecondary,
     },
     button: {
-      default: theme.colors.button.default,
-      icon: theme.colors.button.icon,
+      ...theme.colors.button,
       primary: {
+        ...theme.colors.button.primary,
         background: {
           active: colors.authoreaDark,
           default: colors.authoreaPrimary,
@@ -68,18 +53,9 @@ export const themeAuthorea: Theme = {
           default: colors.authoreaPrimary,
           hover: colors.authoreaDark,
         },
-        color: {
-          active: colors.white,
-          default: colors.white,
-          hover: colors.white,
-        },
       },
       secondary: {
-        background: {
-          active: colors.coolLight,
-          default: colors.white,
-          hover: colors.coolLight,
-        },
+        ...theme.colors.button.secondary,
         border: {
           active: colors.authoreaDark,
           default: colors.authoreaPrimary,
@@ -91,11 +67,6 @@ export const themeAuthorea: Theme = {
           hover: colors.authoreaPrimary,
         },
       },
-      social: theme.colors.button.social,
     },
-    text: theme.colors.text,
-  },
-  font: theme.font,
-  grid: theme.grid,
-  shadow: theme.shadow,
+  }
 }

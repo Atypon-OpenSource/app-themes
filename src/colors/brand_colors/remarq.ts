@@ -15,7 +15,6 @@
  */
 
 // Authorea Brand Colors
-export const remarqDark = '#000'
 export const remarqPrimary = '#1f2124'
 export const remarqLight = '#3c3d3c'
 export const remarqSecondary = '#fed02f'

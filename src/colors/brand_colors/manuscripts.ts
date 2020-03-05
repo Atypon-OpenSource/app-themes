@@ -15,10 +15,10 @@
  */
 
 // Manuscripts Brand Colors
-export const manuscriptsDark = '#0b6bb8'
-export const manuscriptsPrimary = '#0d79d0'
+export const manuscriptsBlueDark = '#0b6bb8'
+export const manuscriptsBlue = '#0d79d0'
+export const manuscriptsIcons = '#1a9bc7'
 export const manuscriptsLight = '#bce7f6'
 export const manuscriptsXLight = '#ddf3fa'
-export const manuscriptsXXL = '#f2fbfc'
+export const manuscriptsXLight2 = '#f2fbfc'
 export const manuscriptsSecondary = '#ffbd26'
-export const manuscriptsIcons = '#1a9bc7'

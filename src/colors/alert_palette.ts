@@ -14,7 +14,29 @@
  * limitations under the License.
  */
 
-export const warning = '#FE8F1F'
-export const success = '#8DD439'
-export const danger = '#F35143'
-export const info = '#48BEE7'
+import * as colors from './ecosystem_palette'
+
+export const danger = colors.ecosystemRed // '#F35143'
+export const info = colors.ecosystemBlue // '#48BEE7'
+export const success = colors.ecosystemGreen // '#8DD439'
+export const warning = colors.ecosystemOrange // '#FE8F1F'
+
+// Manuscripts
+export const chablisRed = '#fff1f0'
+export const mandysRed = '#f5c1b7'
+export const punchRed = '#f35143'
+export const peppermintGreen ='#dff0d7'
+export const springGreen ='#b2c0ac'
+export const killarneyGreen ='#36b260'
+export const butteryYellow = '#fffcdb'
+export const wheatYellow = '#ffe0b2'
+export const zestOrange = '#fe8f1f'
+
+// Remarq
+export const powderBlue = '#f0fafe'
+
+// e-Reader
+export const ereaderInfo = '#CBEEFE'
+export const ereaderWarning = '#FFD494'
+export const ereaderError = '#FFBFBF'
+export const ereaderSuccess = '#B8E986'

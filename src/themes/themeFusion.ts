@@ -20,9 +20,9 @@ import { theme } from './themeDefault'
 
 export const themeFusion: Theme = {
   name: 'Fusion',
+  ...theme,
   colors: {
-    background: theme.colors.background,
-    border: theme.colors.border,
+    ...theme.colors,
     brand: {
       default: colors.workspacePrimary,
       dark: colors.workspaceDark,
@@ -32,9 +32,9 @@ export const themeFusion: Theme = {
       secondary: colors.workspaceSecondary,
     },
     button: {
-      default: theme.colors.button.default,
-      icon: theme.colors.button.icon,
+      ...theme.colors.button,
       primary: {
+        ...theme.colors.button.primary,
         background: {
           active: colors.workspaceDark,
           default: colors.workspacePrimary,
@@ -45,18 +45,9 @@ export const themeFusion: Theme = {
           default: colors.workspacePrimary,
           hover: colors.workspaceDark,
         },
-        color: {
-          active: colors.white,
-          default: colors.white,
-          hover: colors.white,
-        },
       },
       secondary: {
-        background: {
-          active: colors.coolLight,
-          default: colors.white,
-          hover: colors.coolLight,
-        },
+        ...theme.colors.button.secondary,
         border: {
           active: colors.workspaceDark,
           default: colors.workspacePrimary,
@@ -68,11 +59,6 @@ export const themeFusion: Theme = {
           hover: colors.workspacePrimary,
         },
       },
-      social: theme.colors.button.social,
     },
-    text: theme.colors.text,
   },
-  font: theme.font,
-  grid: theme.grid,
-  shadow: theme.shadow,
 }
