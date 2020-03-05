@@ -20,19 +20,9 @@ import { theme } from './themeDefault'
 
 export const themeSubmissionDesk: Theme = {
   name: 'Submission Desk',
+  ...theme,
   colors: {
-    background: {
-      primary: colors.white,
-      secondary: colors.coolXLight,
-      tertiary: colors.coolLight,
-      fifth: colors.greyWhite,
-      dark: colors.greyDark,
-      error: colors.alertDangerLight,
-      info: colors.alertInfoLight,
-      success: colors.alertSuccessLight,
-      warning: colors.alertWarningLight,
-    },
-    border: theme.colors.border,
+    ...theme.colors,
     brand: {
       default: colors.submissionPrimary,
       dark: colors.submissionDark,
@@ -42,9 +32,9 @@ export const themeSubmissionDesk: Theme = {
       secondary: colors.submissionSecondary,
     },
     button: {
-      default: theme.colors.button.default,
-      icon: theme.colors.button.icon,
+      ...theme.colors.button,
       primary: {
+        ...theme.colors.button.primary,
         background: {
           active: colors.submissionDark,
           default: colors.submissionPrimary,
@@ -55,18 +45,9 @@ export const themeSubmissionDesk: Theme = {
           default: colors.submissionPrimary,
           hover: colors.submissionDark,
         },
-        color: {
-          active: colors.white,
-          default: colors.white,
-          hover: colors.white,
-        },
       },
       secondary: {
-        background: {
-          active: colors.coolLight,
-          default: colors.white,
-          hover: colors.coolLight,
-        },
+        ...theme.colors.button.secondary,
         border: {
           active: colors.submissionDark,
           default: colors.submissionPrimary,
@@ -78,11 +59,6 @@ export const themeSubmissionDesk: Theme = {
           hover: colors.submissionPrimary,
         },
       },
-      social: theme.colors.button.social,
     },
-    text: theme.colors.text,
   },
-  font: theme.font,
-  grid: theme.grid,
-  shadow: theme.shadow,
 }

@@ -14,10 +14,15 @@
  * limitations under the License.
  */
 
-import { Theme } from '../types'
-import { theme } from './themeDefault'
+/* BRAND COLORS */
+export * from './brand_colors/authorea'
+export * from './brand_colors/connect'
+export * from './brand_colors/manuscripts'
+export * from './brand_colors/remarq'
+export * from './brand_colors/scitrus'
+export * from './brand_colors/submission_desk'
+export * from './brand_colors/workspace'
 
-export const themeConnect: Theme = {
-  name: 'Connect',
-  ...theme,
-}
+export * from './alert_palette'
+export * from './ecosystem_palette'
+export * from './grey_palette'

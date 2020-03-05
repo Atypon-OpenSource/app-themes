@@ -14,11 +14,20 @@
  * limitations under the License.
  */
 
-// Authorea Brand Colors
-export const remarqDark = '#000'
-export const remarqPrimary = '#1f2124'
-export const remarqLight = '#3c3d3c'
-export const remarqSecondary = '#fed02f'
+export const ecosystemBlue = '#48BEE7'
+export const ecosystemBlueLight = '#68A7BD'
 
-export const remarqDarkTheme = '#2a2a33'
-export const remarqDarkThemeLight = '#3F3F47'
+export const ecosystemYellow = '#FFBD26'
+export const ecosystemYellowLight = '#FFD167'
+
+export const ecosystemOrange = '#FE8F1F'
+export const ecosystemOrangeLight = '#FEB162'
+
+export const ecosystemGreen = '#8DD439'
+export const ecosystemGreenLight = '#AFE174'
+
+export const ecosystemPink = '#F474AE'
+export const ecosystemPinkLight = '#F79EC6'
+
+export const ecosystemRed = '#F35143'
+export const ecosystemRedLight = '#F7857B'

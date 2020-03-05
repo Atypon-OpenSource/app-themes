@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-import { Theme } from '../types'
-import { theme } from './themeDefault'
+// Authorea Brand Colors
+export const remarqPrimary = '#1f2124'
+export const remarqLight = '#3c3d3c'
+export const remarqSecondary = '#fed02f'
 
-export const themeConnect: Theme = {
-  name: 'Connect',
-  ...theme,
-}
+export const remarqDarkTheme = '#2a2a33'
+export const remarqDarkThemeLight = '#3F3F47'

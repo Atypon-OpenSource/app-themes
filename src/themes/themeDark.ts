@@ -20,21 +20,22 @@ import { theme } from './themeDefault'
 
 export const themeDark: Theme = {
   name: 'eReader',
+  ...theme,
   colors: {
+    ...theme.colors,
     background: {
+      ...theme.colors.background,
       primary: colors.ereaderGrey1,
       secondary: colors.ereaderGrey2,
       tertiary: colors.ereaderGrey3,
-      fifth: colors.greyWhite,
       dark: colors.ereaderGrey6,
-      error: colors.ereaderErrorBg,
-      info: colors.ereaderInfoBg,
-      success: colors.ereaderSuccessBg,
-      warning: colors.ereaderWarningBg,
+      error: colors.ereaderGrey3,
+      info: colors.ereaderGrey3,
+      success: colors.ereaderGrey3,
+      warning: colors.ereaderGrey3,
     },
-    border: theme.colors.border,
-    brand: theme.colors.brand,
     button: {
+      ...theme.colors.button,
       default: {
         background: {
           active: colors.ereaderGrey1,
@@ -52,7 +53,6 @@ export const themeDark: Theme = {
           hover: colors.white,
         },
       },
-      icon: theme.colors.button.icon,
       primary: {
         background: {
           active: colors.connectDark,
@@ -87,9 +87,9 @@ export const themeDark: Theme = {
           hover: colors.connectPrimary,
         },
       },
-      social: theme.colors.button.social,
     },
     text: {
+      ...theme.colors.text,
       primary: colors.white,
       secondary: colors.white,
       tertiary: colors.ereaderGrey6,
@@ -97,13 +97,10 @@ export const themeDark: Theme = {
       inactive: colors.ereaderGrey6,
       onDark: colors.white,
       onLight: colors.ereaderGrey4,
-      error: colors.alertDanger,
-      info: colors.alertInfo,
-      success: colors.alertSuccess,
-      warning: colors.alertWarning,
+      error: colors.ereaderError,
+      info: colors.ereaderInfo,
+      success: colors.ereaderSuccess,
+      warning: colors.ereaderWarning,
     },
   },
-  font: theme.font,
-  grid: theme.grid,
-  shadow: theme.shadow,
 }

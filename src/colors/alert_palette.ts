@@ -14,19 +14,29 @@
  * limitations under the License.
  */
 
-// e-Reader Brand Colors
-export const ereaderGrey1 = '#2A2A33'
-export const ereaderGrey7 = '#32323C'
-export const ereaderGrey2 = '#41414C'
-export const ereaderGrey3 = '#575766'
-export const ereaderGrey4 = '#9999AA'
-export const ereaderGrey5 = '#B8B8CC'
-export const ereaderGrey6 = '#C4C4C4'
+import * as colors from './ecosystem_palette'
+
+export const danger = colors.ecosystemRed // '#F35143'
+export const info = colors.ecosystemBlue // '#48BEE7'
+export const success = colors.ecosystemGreen // '#8DD439'
+export const warning = colors.ecosystemOrange // '#FE8F1F'
+
+// Manuscripts
+export const chablisRed = '#fff1f0'
+export const mandysRed = '#f5c1b7'
+export const punchRed = '#f35143'
+export const peppermintGreen = '#dff0d7'
+export const springGreen = '#b2c0ac'
+export const killarneyGreen = '#36b260'
+export const butteryYellow = '#fffcdb'
+export const wheatYellow = '#ffe0b2'
+export const zestOrange = '#fe8f1f'
+
+// Remarq
+export const powderBlue = '#f0fafe'
+
+// e-Reader
 export const ereaderInfo = '#CBEEFE'
-export const ereaderInfoBg = '#575766'
 export const ereaderWarning = '#FFD494'
-export const ereaderWarningBg = '#575766'
 export const ereaderError = '#FFBFBF'
-export const ereaderErrorBg = '#575766'
 export const ereaderSuccess = '#B8E986'
-export const ereaderSuccessBg = '#575766'

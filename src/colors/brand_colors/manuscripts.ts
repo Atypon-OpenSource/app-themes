@@ -14,8 +14,11 @@
  * limitations under the License.
  */
 
-// Connect Brand Colors
-export const connectDark = '#004fb6'
-export const connectButtons = '#0473DB'
-export const connectPrimary = '#1b96f1'
-export const connectSecondary = '#00d1e2'
+// Manuscripts Brand Colors
+export const manuscriptsBlueDark = '#0b6bb8'
+export const manuscriptsBlue = '#0d79d0'
+export const manuscriptsIcons = '#1a9bc7'
+export const manuscriptsLight = '#bce7f6'
+export const manuscriptsXLight = '#ddf3fa'
+export const manuscriptsXLight2 = '#f2fbfc'
+export const manuscriptsSecondary = '#ffbd26'

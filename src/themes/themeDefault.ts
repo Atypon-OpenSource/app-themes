@@ -22,22 +22,22 @@ export const theme: Theme = {
   colors: {
     background: {
       primary: colors.white,
-      secondary: colors.coolXLight,
-      tertiary: colors.coolLight,
-      fifth: colors.greyWhite,
+      secondary: colors.greyWhite,
+      tertiary: colors.greyXLight,
+      fifth: colors.greyLight,
       dark: colors.greyDark,
-      error: colors.alertDangerLight,
-      info: colors.alertInfoLight,
-      success: colors.alertSuccessLight,
-      warning: colors.alertWarningLight,
+      error: colors.white,
+      info: colors.white,
+      success: colors.white,
+      warning: colors.white,
     },
     border: {
-      error: colors.alertDanger,
-      info: colors.alertInfo,
-      success: colors.alertSuccess,
-      warning: colors.alertWarning,
+      error: colors.danger,
+      info: colors.info,
+      success: colors.success,
+      warning: colors.warning,
       primary: colors.greyXLight,
-      secondary: colors.coolLight,
+      secondary: colors.greyLight,
       tertiary: colors.greyWhite,
       field: {
         active: colors.connectPrimary,
@@ -49,43 +49,43 @@ export const theme: Theme = {
       default: colors.connectPrimary,
       dark: colors.connectDark,
       medium: colors.connectButtons,
-      light: colors.coolLight,
-      xlight: colors.coolLight,
-      secondary: colors.connectSecondary,
+      light: colors.connectLight,
+      xlight: colors.connectXLight,
+      secondary: colors.connectLight,
     },
     button: {
       default: {
         background: {
-          active: colors.greyWhite,
+          active: colors.greyXLight,
           default: colors.white,
-          hover: colors.greyWhite,
+          hover: colors.greyXLight,
         },
         border: {
-          active: colors.greyXLight,
-          default: colors.greyXLight,
-          hover: colors.greyXLight,
+          active: colors.greyCloud,
+          default: colors.greyCloud,
+          hover: colors.greyCloud,
+        },
+        color: {
+          active: colors.connectButtons,
+          default: colors.greyMuted,
+          hover: colors.connectButtons,
+        },
+      },
+      icon: {
+        background: {
+          active: colors.white,
+          default: colors.white,
+          hover: colors.white,
+        },
+        border: {
+          active: colors.greyCloud,
+          default: colors.greyCloud,
+          hover: colors.greyCloud,
         },
         color: {
           active: colors.greyMuted,
           default: colors.greyMuted,
           hover: colors.greyMuted,
-        },
-      },
-      icon: {
-        background: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: 'transparent',
-        },
-        border: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: 'transparent',
-        },
-        color: {
-          active: colors.connectPrimary,
-          default: colors.greyMedium,
-          hover: colors.connectPrimary,
         },
       },
       primary: {
@@ -107,14 +107,14 @@ export const theme: Theme = {
       },
       secondary: {
         background: {
-          active: colors.coolLight,
+          active: colors.connectXLight,
           default: colors.white,
-          hover: colors.coolLight,
+          hover: colors.connectXLight,
         },
         border: {
-          active: colors.connectDark,
+          active: colors.connectButtons,
           default: colors.connectButtons,
-          hover: colors.connectDark,
+          hover: colors.connectButtons,
         },
         color: {
           active: colors.connectButtons,
@@ -124,14 +124,14 @@ export const theme: Theme = {
       },
       social: {
         background: {
-          active: colors.greyWhite,
+          active: colors.white,
           default: colors.white,
-          hover: colors.greyWhite,
+          hover: colors.white,
         },
         border: {
-          active: colors.mercuryGrey,
-          default: colors.mercuryGrey,
-          hover: colors.mercuryGrey,
+          active: colors.greyCloud,
+          default: colors.greyCloud,
+          hover: colors.greyCloud,
         },
         color: {
           active: colors.greyMuted,
@@ -148,10 +148,10 @@ export const theme: Theme = {
       inactive: colors.greyXLight,
       onDark: colors.white,
       onLight: colors.greyMedium,
-      error: colors.alertDanger,
-      info: colors.alertInfo,
-      success: colors.alertSuccess,
-      warning: colors.alertWarning,
+      error: colors.greyDark,
+      info: colors.greyDark,
+      success: colors.greyDark,
+      warning: colors.greyDark,
     },
   },
   font: {
@@ -184,9 +184,9 @@ export const theme: Theme = {
   grid: {
     unit: 4,
     radius: {
-      default: '6px',
-      small: '4px',
-      rounder: '16px',
+      default: '4px',
+      small: '2px',
+      rounder: '24px',
     },
     mobile: 360,
     tablet: 768,
@@ -195,7 +195,8 @@ export const theme: Theme = {
     largeDesktop: 1920,
   },
   shadow: {
-    boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.05)',
-    dropShadow: '0 4px 11px 0 rgba(0, 0, 0, 0.1)',
+    boxShadow:
+      '0px 5px 12px rgba(203, 203, 203, 0.05), 0px 2px 2px rgba(194, 194, 194, 0.15)',
+    dropShadow: '0px 5px 10px rgba(0, 0, 0, 0.15)',
   },
 }

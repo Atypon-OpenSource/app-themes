@@ -1,6 +1,6 @@
 {
   "name": "app-themes",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "description": "Styling themes for react applications",
   "main": "dist/cjs",
   "module": "dist/es",
@@ -20,10 +20,11 @@
     "lint": "tslint --project tsconfig.json",
     "prebuild": "rimraf dist",
     "prettier": "prettier --write \"src/**/*.ts\"",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "watch": "yarn build:es --watch"
   },
   "dependencies": {
-    "@types/styled-components": "^4.4.3",
+    "@types/styled-components": "^5.0.1",
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
@@ -35,6 +36,6 @@
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^9.0.0",
     "tslint-plugin-prettier": "^2.1.0",
-    "typescript": "^3.7.5"
+    "typescript": "^3.8.3"
   }
 }
