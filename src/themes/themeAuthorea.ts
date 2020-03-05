@@ -68,5 +68,5 @@ export const themeAuthorea: Theme = {
         },
       },
     },
-  }
+  },
 }

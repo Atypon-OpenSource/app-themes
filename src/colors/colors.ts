@@ -26,4 +26,3 @@ export * from './brand_colors/workspace'
 export * from './alert_palette'
 export * from './ecosystem_palette'
 export * from './grey_palette'
-

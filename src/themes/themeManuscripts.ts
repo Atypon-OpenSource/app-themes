@@ -32,7 +32,6 @@ export const themeManuscripts: Theme = {
       info: colors.manuscriptsXLight2,
       success: colors.peppermintGreen,
       warning: colors.butteryYellow,
-
     },
     border: {
       error: colors.mandysRed,
