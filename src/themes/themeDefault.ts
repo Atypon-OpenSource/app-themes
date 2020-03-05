@@ -73,9 +73,9 @@ export const theme: Theme = {
       },
       icon: {
         background: {
-          active: colors.white,
+          active: colors.greyXLight,
           default: colors.white,
-          hover: colors.white,
+          hover: colors.greyXLight,
         },
         border: {
           active: colors.greyCloud,
@@ -83,9 +83,9 @@ export const theme: Theme = {
           hover: colors.greyCloud,
         },
         color: {
-          active: colors.greyMuted,
+          active: colors.connectButtons,
           default: colors.greyMuted,
-          hover: colors.greyMuted,
+          hover: colors.connectButtons,
         },
       },
       primary: {
@@ -124,9 +124,9 @@ export const theme: Theme = {
       },
       social: {
         background: {
-          active: colors.white,
+          active: colors.greyXLight,
           default: colors.white,
-          hover: colors.white,
+          hover: colors.greyXLight,
         },
         border: {
           active: colors.greyCloud,
@@ -134,9 +134,9 @@ export const theme: Theme = {
           hover: colors.greyCloud,
         },
         color: {
-          active: colors.greyMuted,
+          active: colors.connectButtons,
           default: colors.greyMuted,
-          hover: colors.greyMuted,
+          hover: colors.connectButtons,
         },
       },
     },
