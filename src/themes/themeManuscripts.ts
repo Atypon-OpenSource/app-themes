@@ -57,7 +57,8 @@ export const themeManuscripts: Theme = {
     },
     button: {
       ...theme.colors.button,
-      default: { // tertiary
+      default: {
+        // tertiary
         background: {
           active: 'transparent',
           default: 'transparent',
