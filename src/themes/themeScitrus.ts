@@ -83,13 +83,13 @@ export const themeScitrus: Theme = {
           hover: colors.white,
         },
         border: {
-          active: colors.scitrusPrimary,
+          active: colors.scitrusDark,
           default: colors.scitrusPrimary,
           hover: colors.scitrusDark,
         },
         color: {
-          active: 'color: rgba(13, 38, 60, 0.75)',
-          default: 'color: rgba(13, 38, 60, 0.75)',
+          active: colors.scitrusDark,
+          default: colors.scitrusPrimary,
           hover: colors.scitrusDark,
         },
       },
