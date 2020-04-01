@@ -24,3 +24,11 @@ Available exports are also the ``{default: styled, css, createGlobalStyle, Theme
 # Building
 
 Run `yarn build` to generate the `dist` folder for publishing
+
+# For publishing
+
+Make sure to do:
+
+`npm set @atypon:registry https://atypon-npm-registry.herokuapp.com`
+
+`npm publish` will publish the package to the Atypon NPM registry, and cause it to be pulled from there 
