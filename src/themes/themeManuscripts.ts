@@ -19,7 +19,7 @@ import { Theme } from '../types'
 import { theme } from './themeDefault'
 
 const fontFamily = '"Lato", sans-serif'
-
+// https://app.zeplin.io/project/5aeb0f38a177eceb0282d0cb/screen/5d948afd13bc23613dbf8d4c
 export const themeManuscripts: Theme = {
   name: 'Manuscripts',
   colors: {
@@ -57,7 +57,7 @@ export const themeManuscripts: Theme = {
     },
     button: {
       ...theme.colors.button,
-      default: {
+      default: { // tertiary
         background: {
           active: 'transparent',
           default: 'transparent',
@@ -92,7 +92,6 @@ export const themeManuscripts: Theme = {
         },
       },
       primary: {
-        ...theme.colors.button.primary,
         background: {
           active: colors.manuscriptsBlueDark,
           default: colors.manuscriptsBlue,
@@ -102,6 +101,11 @@ export const themeManuscripts: Theme = {
           active: colors.manuscriptsBlueDark,
           default: colors.manuscriptsBlue,
           hover: colors.manuscriptsBlueDark,
+        },
+        color: {
+          active: colors.white,
+          default: colors.white,
+          hover: colors.white,
         },
       },
       secondary: {
@@ -125,17 +129,17 @@ export const themeManuscripts: Theme = {
         background: {
           active: colors.punchRed,
           default: colors.punchRed,
-          hover: 'transparent',
+          hover: colors.punchRedDark,
         },
         border: {
           active: colors.punchRed,
           default: colors.punchRed,
-          hover: colors.punchRed,
+          hover: colors.punchRedDark,
         },
         color: {
           active: colors.white,
           default: colors.white,
-          hover: colors.punchRed,
+          hover: colors.white,
         },
       },
     },

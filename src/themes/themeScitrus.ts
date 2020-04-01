@@ -60,7 +60,6 @@ export const themeScitrus: Theme = {
         },
       },
       primary: {
-        ...theme.colors.button.primary,
         background: {
           active: colors.scitrusDark,
           default: colors.scitrusPrimary,
@@ -71,18 +70,27 @@ export const themeScitrus: Theme = {
           default: colors.scitrusPrimary,
           hover: colors.scitrusDark,
         },
+        color: {
+          active: colors.white,
+          default: colors.white,
+          hover: colors.white,
+        },
       },
       secondary: {
-        ...theme.colors.button.secondary,
+        background: {
+          active: colors.white,
+          default: colors.white,
+          hover: colors.white,
+        },
         border: {
-          active: colors.scitrusDark,
+          active: colors.scitrusPrimary,
           default: colors.scitrusPrimary,
           hover: colors.scitrusDark,
         },
         color: {
-          active: colors.scitrusPrimary,
-          default: colors.scitrusPrimary,
-          hover: colors.scitrusPrimary,
+          active: 'color: rgba(13, 38, 60, 0.75)',
+          default: 'color: rgba(13, 38, 60, 0.75)',
+          hover: colors.scitrusDark,
         },
       },
       social: {
