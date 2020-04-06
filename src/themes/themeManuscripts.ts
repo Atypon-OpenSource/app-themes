@@ -58,20 +58,20 @@ export const themeManuscripts: Theme = {
     button: {
       ...theme.colors.button,
       default: {
-        // tertiary
+        // secondary
         background: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: colors.manuscriptsXLight2,
+          active: colors.white,
+          default: colors.white,
+          hover: colors.white,
         },
         border: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: colors.manuscriptsXLight2,
+          active: colors.greyCloud,
+          default: colors.greyCloud,
+          hover: colors.greyCloud,
         },
         color: {
           active: colors.manuscriptsBlue,
-          default: colors.manuscriptsBlue,
+          default: colors.greyDark,
           hover: colors.manuscriptsBlue,
         },
       },
@@ -110,19 +110,20 @@ export const themeManuscripts: Theme = {
         },
       },
       secondary: {
+        // tertiary
         background: {
-          active: colors.white,
-          default: colors.white,
-          hover: colors.white,
+          active: 'transparent',
+          default: 'transparent',
+          hover: colors.manuscriptsXLight2,
         },
         border: {
-          active: colors.greyCloud,
-          default: colors.greyCloud,
-          hover: colors.greyCloud,
+          active: 'transparent',
+          default: 'transparent',
+          hover: colors.manuscriptsXLight2,
         },
         color: {
           active: colors.manuscriptsBlue,
-          default: colors.greyDark,
+          default: colors.manuscriptsBlue,
           hover: colors.manuscriptsBlue,
         },
       },
