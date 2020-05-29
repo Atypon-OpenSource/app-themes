@@ -32,8 +32,15 @@ export const {
   default: styled,
   css,
   createGlobalStyle,
+  keyframes,
+  ThemeContext,
+  ThemeConsumer,
   ThemeProvider,
+  useTheme,
   withTheme,
+  isStyledComponent,
+  ServerStyleSheet,
+  StyleSheetManager,
 } = StyledComponents as StyledComponents.ThemedStyledComponentsModule<Theme>
 
 export type ThemedProps<V> = StyledComponents.ThemedStyledProps<
