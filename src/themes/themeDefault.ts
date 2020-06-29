@@ -40,9 +40,9 @@ export const theme: Theme = {
       secondary: colors.greyLight,
       tertiary: colors.greyWhite,
       field: {
-        active: colors.connectPrimary,
+        active: colors.connectDark,
         default: colors.greyMedium,
-        hover: colors.connectPrimary,
+        hover: colors.connectDark,
       },
     },
     brand: {
