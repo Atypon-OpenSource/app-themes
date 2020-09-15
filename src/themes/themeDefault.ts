@@ -167,6 +167,7 @@ export const theme: Theme = {
       small: '12px',
     },
     lineHeight: {
+      xlarge: '32px',
       large: '24px',
       normal: '16px',
       small: '14px',

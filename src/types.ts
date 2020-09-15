@@ -80,6 +80,7 @@ interface FontSize {
   small: string
 }
 interface LineHeight {
+  xlarge: string
   large: string
   normal: string
   small: string
