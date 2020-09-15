@@ -160,7 +160,7 @@ export const theme: Theme = {
       serif: '"Roboto Slab", serif',
     },
     size: {
-      xlarge: '22px',
+      xlarge: '24px',
       large: '18px',
       medium: '16px',
       normal: '14px',
@@ -184,8 +184,8 @@ export const theme: Theme = {
   grid: {
     unit: 4,
     radius: {
-      default: '4px',
-      small: '2px',
+      default: '8px',
+      small: '4px',
       rounder: '24px',
     },
     mobile: 360,
