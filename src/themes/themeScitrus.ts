@@ -78,14 +78,14 @@ export const themeScitrus: Theme = {
       },
       secondary: {
         background: {
-          active: colors.ecosystemBlueLight,
+          active: colors.scitrusBlue,
           default: colors.ecosystemBlue,
-          hover: colors.ecosystemBlueLight,
+          hover: colors.scitrusBlue,
         },
         border: {
-          active: colors.ecosystemBlueLight,
+          active: colors.scitrusBlue,
           default: colors.ecosystemBlue,
-          hover: colors.ecosystemBlueLight,
+          hover: colors.scitrusBlue,
         },
         color: {
           active: colors.white,
