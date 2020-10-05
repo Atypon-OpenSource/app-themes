@@ -78,19 +78,19 @@ export const themeScitrus: Theme = {
       },
       secondary: {
         background: {
+          active: colors.ecosystemBlueLight,
+          default: colors.ecosystemBlue,
+          hover: colors.ecosystemBlueLight,
+        },
+        border: {
+          active: colors.ecosystemBlueLight,
+          default: colors.ecosystemBlue,
+          hover: colors.ecosystemBlueLight,
+        },
+        color: {
           active: colors.white,
           default: colors.white,
           hover: colors.white,
-        },
-        border: {
-          active: colors.scitrusDark,
-          default: colors.scitrusPrimary,
-          hover: colors.scitrusDark,
-        },
-        color: {
-          active: colors.scitrusDark,
-          default: colors.scitrusPrimary,
-          hover: colors.scitrusDark,
         },
       },
       social: {
@@ -117,6 +117,30 @@ export const themeScitrus: Theme = {
       secondary: colors.scitrusButtonColor,
       muted: colors.scitrusCoolGrey,
       error: colors.scitrusPrimary,
+    },
+  },
+  font: {
+    ...theme.font,
+    lineHeight: {
+      xlarge: '40px',
+      large: '24px',
+      normal: '16px',
+      small: '16px',
+    },
+    size: {
+      xlarge: '32px', // 33
+      large: '24px', // 24, 23, 20, 19, 18
+      medium: '16px', // 15
+      normal: '14px',
+      small: '12px',
+    },
+  },
+  grid: {
+    ...theme.grid,
+    radius: {
+      default: '8px',
+      small: '4px',
+      rounder: '15px',
     },
   },
 }

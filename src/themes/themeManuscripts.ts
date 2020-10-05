@@ -149,7 +149,7 @@ export const themeManuscripts: Theme = {
       ...theme.colors.text,
       secondary: colors.greyMuted,
       tertiary: colors.manuscriptsBlue,
-      muted: colors.greyCloud,
+      muted: colors.greyMuted,
       error: colors.punchRed,
       info: colors.manuscriptsBlueDark,
       success: colors.killarneyGreen,
