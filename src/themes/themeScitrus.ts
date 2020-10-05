@@ -117,6 +117,7 @@ export const themeScitrus: Theme = {
       secondary: colors.scitrusButtonColor,
       muted: colors.scitrusCoolGrey,
       error: colors.scitrusPrimary,
+      info: colors.ecosystemBlue,
     },
   },
   font: {
