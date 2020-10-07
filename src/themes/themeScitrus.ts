@@ -129,8 +129,8 @@ export const themeScitrus: Theme = {
       small: '16px',
     },
     size: {
-      xlarge: '32px', // 33
-      large: '24px', // 24, 23, 20, 19, 18
+      xlarge: '35px', // 33, 32
+      large: '19px', // 24, 23, 20, 19, 18
       medium: '16px', // 15
       normal: '14px',
       small: '12px',
