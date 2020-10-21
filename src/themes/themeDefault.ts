@@ -54,6 +54,23 @@ export const theme: Theme = {
       secondary: colors.connectLight,
     },
     button: {
+      action: {
+        background: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        border: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        color: {
+          active: colors.connectDark,
+          default: colors.connectButtons,
+          hover: colors.connectDark,
+        },
+      },
       default: {
         background: {
           active: colors.greyXLight,

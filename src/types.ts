@@ -52,6 +52,7 @@ interface Brand {
   secondary: string
 }
 interface Button {
+  action: Elements
   default: Elements
   primary: Elements
   secondary: Elements

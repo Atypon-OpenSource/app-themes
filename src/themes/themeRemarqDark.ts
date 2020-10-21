@@ -49,6 +49,23 @@ export const themeRemarqDark: Theme = {
     },
     button: {
       ...theme.colors.button,
+      action: {
+        background: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        border: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        color: {
+          active: colors.white,
+          default: colors.greyXLight,
+          hover: colors.white,
+        },
+      },
       default: {
         ...theme.colors.button.default,
         background: {

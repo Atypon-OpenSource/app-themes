@@ -33,6 +33,23 @@ export const themeSubmissionDesk: Theme = {
     },
     button: {
       ...theme.colors.button,
+      action: {
+        background: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        border: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        color: {
+          active: colors.submissionDark,
+          default: colors.submissionPrimary,
+          hover: colors.submissionDark,
+        },
+      },
       primary: {
         ...theme.colors.button.primary,
         background: {

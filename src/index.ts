@@ -33,8 +33,6 @@ export const {
   css,
   createGlobalStyle,
   keyframes,
-  ThemeContext,
-  ThemeConsumer,
   ThemeProvider,
   useTheme,
   withTheme,

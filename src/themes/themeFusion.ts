@@ -33,6 +33,23 @@ export const themeFusion: Theme = {
     },
     button: {
       ...theme.colors.button,
+      action: {
+        background: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        border: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        color: {
+          active: colors.workspaceDark,
+          default: colors.workspaceMedium,
+          hover: colors.workspaceDark,
+        },
+      },
       primary: {
         ...theme.colors.button.primary,
         background: {

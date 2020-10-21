@@ -42,6 +42,23 @@ export const themeScitrus: Theme = {
     },
     button: {
       ...theme.colors.button,
+      action: {
+        background: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        border: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        color: {
+          active: colors.scitrusDark,
+          default: colors.scitrusPrimary,
+          hover: colors.scitrusDark,
+        },
+      },
       default: {
         background: {
           active: colors.white,

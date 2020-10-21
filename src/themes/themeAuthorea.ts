@@ -41,6 +41,23 @@ export const themeAuthorea: Theme = {
     },
     button: {
       ...theme.colors.button,
+      action: {
+        background: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        border: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        color: {
+          active: colors.authoreaDark,
+          default: colors.authoreaPrimary,
+          hover: colors.authoreaDark,
+        },
+      },
       primary: {
         ...theme.colors.button.primary,
         background: {
