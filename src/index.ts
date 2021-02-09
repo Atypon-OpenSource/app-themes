@@ -17,6 +17,7 @@
 import * as StyledComponents from 'styled-components'
 import { Theme } from './types'
 
+export { ThemedStyledProps } from 'styled-components'
 export { themeAuthorea } from './themes/themeAuthorea'
 export { themeConnect } from './themes/themeConnect'
 export { themeDark } from './themes/themeDark'

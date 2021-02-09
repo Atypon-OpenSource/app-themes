@@ -51,7 +51,7 @@ interface Brand {
   xlight: string
   secondary: string
 }
-interface Button {
+export interface Button {
   action: Elements
   default: Elements
   primary: Elements
