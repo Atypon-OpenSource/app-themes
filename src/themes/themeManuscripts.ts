@@ -21,6 +21,7 @@ import { theme } from './themeDefault'
 const fontFamily = '"Lato", sans-serif'
 // https://app.zeplin.io/project/5aeb0f38a177eceb0282d0cb/screen/5d948afd13bc23613dbf8d4c
 export const themeManuscripts: Theme = {
+  ...theme,
   name: 'Manuscripts',
   colors: {
     background: {
