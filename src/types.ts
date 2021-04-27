@@ -134,4 +134,5 @@ export interface Theme {
   font: Font
   grid: Grid
   shadow: Shadow
+  linkDecoration: string
 }
