@@ -40,7 +40,7 @@ export const {
   isStyledComponent,
   ServerStyleSheet,
   StyleSheetManager,
-} = StyledComponents as StyledComponents.ThemedStyledComponentsModule<Theme>
+} = StyledComponents
 
 export type ThemedProps<V> = StyledComponents.ThemedStyledProps<
   React.HTMLProps<V>,
