@@ -1,6 +1,6 @@
 {
   "name": "app-themes",
-  "version": "0.3.23",
+  "version": "0.3.24",
   "description": "Styling themes for react applications",
   "main": "dist/cjs",
   "module": "dist/es",
@@ -22,10 +22,6 @@
     "prettier": "prettier --write \"src/**/*.ts\"",
     "typecheck": "tsc --noEmit",
     "watch": "yarn build:es --watch"
-  },
-  "dependencies": {
-    "@types/styled-components": "^5.0.1",
-    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "husky": "^4.2.5",

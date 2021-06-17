@@ -218,4 +218,5 @@ export const theme: Theme = {
     dropShadow: '0px 5px 10px rgba(0, 0, 0, 0.15)',
   },
   linkDecoration: 'none',
+  linkHoverDecoration: 'none',
 }

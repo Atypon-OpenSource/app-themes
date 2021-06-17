@@ -135,4 +135,5 @@ export interface Theme {
   grid: Grid
   shadow: Shadow
   linkDecoration: string
+  linkHoverDecoration: string
 }
