@@ -1,5 +1,5 @@
 /*!
- * © 2020 Atypon Systems LLC
+ * © 2021 Atypon Systems LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,10 +20,15 @@ interface Alerts {
   success: string
   warning: string
 }
-interface Elements {
+export interface Elements {
   background: States
   border: States
   color: States
+  dark?: {
+    background: States
+    border: States
+    color: States
+  }
 }
 interface States {
   active: string
@@ -53,6 +58,7 @@ interface Brand {
 }
 export interface Button {
   action: Elements
+  actionColored: Elements
   default: Elements
   primary: Elements
   secondary: Elements
@@ -96,14 +102,14 @@ interface FontWeight {
   xlight: number
 }
 
-interface Colors {
+export interface Colors {
   background: Background & Alerts & Variations
   border: Border & Alerts & Variations
   brand: Brand
   button: Button
   text: Text & Alerts & Variations
 }
-interface Font {
+export interface Font {
   family: FontFamily
   lineHeight: LineHeight
   size: FontSize
@@ -114,7 +120,7 @@ interface Radius {
   small: string
   rounder?: string
 }
-interface Grid {
+export interface Grid {
   radius: Radius
   unit: number
   mobile: number

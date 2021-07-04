@@ -1,5 +1,5 @@
 /*!
- * © 2020 Atypon Systems LLC
+ * © 2021 Atypon Systems LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -54,7 +54,7 @@ export const themeRemarq: Theme = {
     },
     button: {
       ...theme.colors.button,
-      action: {
+      actionColored: {
         background: {
           active: 'transparent',
           default: 'transparent',

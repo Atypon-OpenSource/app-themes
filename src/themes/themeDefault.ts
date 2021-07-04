@@ -1,5 +1,5 @@
 /*!
- * © 2020 Atypon Systems LLC
+ * © 2021 Atypon Systems LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -38,7 +38,7 @@ export const theme: Theme = {
       warning: colors.warning,
       primary: colors.greyXLight,
       secondary: colors.greyLight,
-      tertiary: colors.greyWhite,
+      tertiary: colors.greyCloud,
       field: {
         active: colors.connectDark,
         default: colors.greyMedium,
@@ -55,6 +55,40 @@ export const theme: Theme = {
     },
     button: {
       action: {
+        background: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        border: {
+          active: 'transparent',
+          default: 'transparent',
+          hover: 'transparent',
+        },
+        color: {
+          active: colors.connectDark,
+          default: colors.greyDark,
+          hover: colors.connectDark,
+        },
+        dark: {
+          background: {
+            active: 'transparent',
+            default: 'transparent',
+            hover: 'transparent',
+          },
+          border: {
+            active: 'transparent',
+            default: 'transparent',
+            hover: 'transparent',
+          },
+          color: {
+            active: colors.white,
+            default: colors.white,
+            hover: colors.white,
+          },
+        },
+      },
+      actionColored: {
         background: {
           active: 'transparent',
           default: 'transparent',

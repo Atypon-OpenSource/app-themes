@@ -1,5 +1,5 @@
 /*!
- * © 2020 Atypon Systems LLC
+ * © 2021 Atypon Systems LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
  */
 
 import * as StyledComponents from 'styled-components'
-import { Theme } from './types'
+import { Button, Colors, Elements, Font, Grid, Theme } from './types'
 
 export { ThemedStyledProps } from 'styled-components'
 export { themeAuthorea } from './themes/themeAuthorea'
@@ -46,3 +46,11 @@ export type ThemedProps<V> = StyledComponents.ThemedStyledProps<
   React.HTMLProps<V>,
   Theme
 >
+
+export {
+  Button as ThemeButtonProperties,
+  Colors as ThemeColorProps,
+  Elements as ThemeButtonInterface,
+  Font as ThemeFontProps,
+  Grid as ThemeGridProps,
+}
