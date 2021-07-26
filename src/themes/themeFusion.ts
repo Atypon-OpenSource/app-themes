@@ -33,17 +33,16 @@ export const themeFusion: Theme = {
     },
     button: {
       ...theme.colors.button,
+      action: {
+        ...theme.colors.button.action,
+        color: {
+          active: colors.workspaceDark,
+          default: colors.greyDark,
+          hover: colors.workspaceDark,
+        },
+      },
       actionColored: {
-        background: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: 'transparent',
-        },
-        border: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: 'transparent',
-        },
+        ...theme.colors.button.actionColored,
         color: {
           active: colors.workspaceDark,
           default: colors.workspaceMedium,

@@ -25,10 +25,10 @@ export const themeRemarq: Theme = {
   name: 'Remarq',
   colors: {
     background: {
-      primary: colors.marbleGrey,
-      secondary: colors.greyWhite,
+      primary: colors.white,
+      secondary: colors.marbleGrey,
       tertiary: colors.alabasterGrey,
-      fifth: colors.white,
+      fifth: colors.greyWhite,
       dark: colors.remarqPrimary,
       error: colors.chablisRed,
       info: colors.powderBlue,
@@ -54,17 +54,16 @@ export const themeRemarq: Theme = {
     },
     button: {
       ...theme.colors.button,
+      action: {
+        ...theme.colors.button.action,
+        color: {
+          active: colors.black,
+          default: colors.greyDark,
+          hover: colors.black,
+        },
+      },
       actionColored: {
-        background: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: 'transparent',
-        },
-        border: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: 'transparent',
-        },
+        ...theme.colors.button.actionColored,
         color: {
           active: colors.black,
           default: colors.remarqPrimary,
@@ -135,11 +134,8 @@ export const themeRemarq: Theme = {
       serif: 'serif',
     },
     size: {
+      ...theme.font.size,
       xlarge: '20px',
-      large: '18px',
-      medium: '16px',
-      normal: '14px',
-      small: '12px',
     },
     weight: {
       xbold: 900,

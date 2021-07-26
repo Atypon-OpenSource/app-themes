@@ -42,17 +42,16 @@ export const themeScitrus: Theme = {
     },
     button: {
       ...theme.colors.button,
+      action: {
+        ...theme.colors.button.action,
+        color: {
+          active: colors.scitrusDark,
+          default: colors.greyDark,
+          hover: colors.scitrusDark,
+        },
+      },
       actionColored: {
-        background: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: 'transparent',
-        },
-        border: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: 'transparent',
-        },
+        ...theme.colors.button.actionColored,
         color: {
           active: colors.scitrusDark,
           default: colors.scitrusPrimary,
@@ -139,25 +138,19 @@ export const themeScitrus: Theme = {
   },
   font: {
     ...theme.font,
-    lineHeight: {
-      xlarge: '40px',
-      large: '24px',
-      normal: '16px',
-      small: '16px',
-    },
     size: {
-      xlarge: '35px', // 33, 32
-      large: '19px', // 24, 23, 20, 19, 18
-      medium: '16px', // 15
-      normal: '14px',
-      small: '12px',
+      ...theme.font.size,
+      xlarge: '32px', // 33, 35
+    },
+    lineHeight: {
+      ...theme.font.lineHeight,
+      small: '16px',
     },
   },
   grid: {
     ...theme.grid,
     radius: {
-      default: '8px',
-      small: '4px',
+      ...theme.grid.radius,
       rounder: '15px',
     },
   },

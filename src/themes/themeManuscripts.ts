@@ -58,17 +58,16 @@ export const themeManuscripts: Theme = {
     },
     button: {
       ...theme.colors.button,
+      action: {
+        ...theme.colors.button.action,
+        color: {
+          active: colors.manuscriptsIcons,
+          default: colors.greyDark,
+          hover: colors.manuscriptsIcons,
+        },
+      },
       actionColored: {
-        background: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: 'transparent',
-        },
-        border: {
-          active: 'transparent',
-          default: 'transparent',
-          hover: 'transparent',
-        },
+        ...theme.colors.button.actionColored,
         color: {
           active: colors.manuscriptsIcons,
           default: colors.manuscriptsBlue,
