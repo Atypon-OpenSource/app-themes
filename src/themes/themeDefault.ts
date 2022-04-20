@@ -46,12 +46,12 @@ export const theme: Theme = {
       },
     },
     brand: {
-      default: colors.connectPrimary,
+      default: colors.connectSecondary,
       dark: colors.connectDark,
       medium: colors.connectButtons,
       light: colors.connectLight,
       xlight: colors.connectXLight,
-      secondary: colors.connectLight,
+      secondary: colors.connectSecondary,
     },
     button: {
       action: {
@@ -158,9 +158,9 @@ export const theme: Theme = {
       },
       secondary: {
         background: {
-          active: colors.connectXLight,
+          active: colors.greyXLight,
           default: colors.white,
-          hover: colors.connectXLight,
+          hover: colors.greyXLight,
         },
         border: {
           active: colors.connectButtons,

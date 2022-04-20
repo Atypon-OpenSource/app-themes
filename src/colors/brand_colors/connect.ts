@@ -18,5 +18,6 @@
 export const connectDark = '#0B6BB8'
 export const connectButtons = '#0D79D0'
 export const connectPrimary = '#48BEE7'
-export const connectLight = '#7FD2EE'
+export const connectSecondary = '#48BEE7'
+export const connectLight = '#A3DFF3'
 export const connectXLight = '#F2FBFC'

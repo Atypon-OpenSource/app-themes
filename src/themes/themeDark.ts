@@ -43,9 +43,9 @@ export const themeDark: Theme = {
           hover: colors.ereaderGrey1,
         },
         border: {
-          active: colors.connectPrimary,
+          active: colors.connectSecondary,
           default: colors.ereaderGrey2,
-          hover: colors.connectPrimary,
+          hover: colors.connectSecondary,
         },
         color: {
           active: colors.white,
@@ -56,7 +56,7 @@ export const themeDark: Theme = {
       primary: {
         background: {
           active: colors.connectDark,
-          default: colors.connectPrimary,
+          default: colors.connectSecondary,
           hover: colors.connectDark,
         },
         border: {
@@ -77,14 +77,14 @@ export const themeDark: Theme = {
           hover: colors.ereaderGrey1,
         },
         border: {
-          active: colors.connectPrimary,
+          active: colors.connectSecondary,
           default: colors.ereaderGrey2,
-          hover: colors.connectPrimary,
+          hover: colors.connectSecondary,
         },
         color: {
-          active: colors.connectPrimary,
+          active: colors.connectSecondary,
           default: colors.white,
-          hover: colors.connectPrimary,
+          hover: colors.connectSecondary,
         },
       },
     },
