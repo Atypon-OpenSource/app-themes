@@ -78,6 +78,7 @@ interface Text {
 interface FontFamily {
   sans: string
   serif: string
+  open: string
 }
 interface FontSize {
   xlarge: string
@@ -101,7 +102,13 @@ interface FontWeight {
   light: number
   xlight: number
 }
-
+export interface styles {
+  styleType: string
+  buttonStyle: string
+  inputStyle: string
+  footerStyle: string
+  fontFamily: string
+}
 export interface Colors {
   background: Background & Alerts & Variations
   border: Border & Alerts & Variations
@@ -142,4 +149,5 @@ export interface Theme {
   shadow: Shadow
   linkDecoration: string
   linkHoverDecoration: string
+  styles: styles
 }

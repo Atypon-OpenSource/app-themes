@@ -19,6 +19,13 @@ import { Theme } from '../types'
 
 export const theme: Theme = {
   name: 'Default',
+  styles: {
+    styleType: '',
+    buttonStyle: '',
+    inputStyle: '',
+    footerStyle: '',
+    fontFamily: '"Montserrat", sans-serif',
+  },
   colors: {
     background: {
       primary: colors.white,
@@ -209,6 +216,7 @@ export const theme: Theme = {
     family: {
       sans: '"Montserrat", sans-serif',
       serif: '"Roboto Slab", serif',
+      open: '"Open Sans", sans-serif',
     },
     size: {
       xlarge: '24px',

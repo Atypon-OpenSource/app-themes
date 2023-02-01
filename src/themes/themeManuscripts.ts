@@ -178,6 +178,7 @@ export const themeManuscripts: Theme = {
     family: {
       sans: fontFamily,
       serif: 'serif',
+      open: theme.font.family.open,
     },
     size: {
       xlarge: '20px',
