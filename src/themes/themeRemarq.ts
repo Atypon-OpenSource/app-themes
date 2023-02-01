@@ -132,6 +132,7 @@ export const themeRemarq: Theme = {
     family: {
       sans: fontFamily,
       serif: 'serif',
+      open: theme.font.family.open,
     },
     size: {
       ...theme.font.size,
