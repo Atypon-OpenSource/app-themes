@@ -34,6 +34,7 @@ interface States {
   active: string
   default: string
   hover: string
+  focus?: string
 }
 interface Variations {
   primary: string
@@ -44,6 +45,7 @@ interface Variations {
 interface Background {
   fifth: string
   dark: string
+  darkBlue: string
 }
 interface Border {
   field: States

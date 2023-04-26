@@ -30,6 +30,7 @@ export const themeRemarq: Theme = {
       tertiary: colors.alabasterGrey,
       fifth: colors.greyWhite,
       dark: colors.remarqPrimary,
+      darkBlue: colors.connectDarkBlue,
       error: colors.chablisRed,
       info: colors.powderBlue,
       success: colors.peppermintGreen,
