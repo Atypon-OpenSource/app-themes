@@ -33,6 +33,7 @@ export const theme: Theme = {
       tertiary: colors.greyXLight,
       fifth: colors.greyLight,
       dark: colors.greyDark,
+      darkBlue: colors.connectDarkBlue,
       error: colors.white,
       info: colors.white,
       success: colors.white,
@@ -50,6 +51,7 @@ export const theme: Theme = {
         active: colors.connectDark,
         default: colors.greyMedium,
         hover: colors.connectDark,
+        focus: colors.connectFocus,
       },
     },
     brand: {
