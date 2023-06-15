@@ -143,6 +143,11 @@ interface Shadow {
   dropShadow: string
 }
 
+interface Logo {
+  type: string
+  size: number
+}
+
 export interface Theme {
   name: string
   colors: Colors
@@ -152,4 +157,5 @@ export interface Theme {
   linkDecoration: string
   linkHoverDecoration: string
   styles: styles
+  logo: Logo
 }
