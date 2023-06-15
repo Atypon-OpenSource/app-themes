@@ -261,6 +261,10 @@ export const theme: Theme = {
       '0px 5px 12px rgba(203, 203, 203, 0.05), 0px 2px 2px rgba(194, 194, 194, 0.15)',
     dropShadow: '0px 5px 10px rgba(0, 0, 0, 0.15)',
   },
+  logo: {
+    type: 'with-text',
+    size: 42,
+  },
   linkDecoration: 'none',
   linkHoverDecoration: 'none',
 }
