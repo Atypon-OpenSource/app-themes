@@ -35,6 +35,9 @@ interface States {
   default: string
   hover: string
   focus?: string
+  connect?: string
+  white?: string
+  hoverConnect?: string
 }
 interface Variations {
   primary: string
@@ -57,6 +60,7 @@ interface Brand {
   light: string
   xlight: string
   secondary: string
+  connect?: string
 }
 export interface Button {
   action: Elements
@@ -144,8 +148,8 @@ interface Shadow {
 }
 
 interface Logo {
-  type: string
-  size: number
+  displayPublisherName: boolean
+  publisherLogoSize: number
 }
 
 export interface Theme {

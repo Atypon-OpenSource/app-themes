@@ -61,6 +61,7 @@ export const theme: Theme = {
       light: colors.connectLight,
       xlight: colors.connectXLight,
       secondary: colors.connectSecondary,
+      connect: colors.connectButtons,
     },
     button: {
       action: {
@@ -119,6 +120,8 @@ export const theme: Theme = {
           active: colors.greyXLight,
           default: colors.white,
           hover: colors.greyXLight,
+          connect: colors.connectButtons,
+          hoverConnect: colors.connectDark,
         },
         border: {
           active: colors.greyCloud,
@@ -129,6 +132,7 @@ export const theme: Theme = {
           active: colors.connectButtons,
           default: colors.greyMuted,
           hover: colors.connectButtons,
+          white: colors.white,
         },
       },
       icon: {
@@ -262,8 +266,8 @@ export const theme: Theme = {
     dropShadow: '0px 5px 10px rgba(0, 0, 0, 0.15)',
   },
   logo: {
-    type: 'with-text',
-    size: 42,
+    displayPublisherName: true,
+    publisherLogoSize: 42,
   },
   linkDecoration: 'none',
   linkHoverDecoration: 'none',
