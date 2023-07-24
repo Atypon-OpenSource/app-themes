@@ -17,6 +17,7 @@
 // Connect Brand Colors
 export const connectDark = '#0B6BB8'
 export const connectButtons = '#0D79D0'
+export const connectButtonsHover = '#0C6FC0'
 export const connectPrimary = '#48BEE7'
 export const connectSecondary = '#48BEE7'
 export const connectLight = '#A3DFF3'
