@@ -129,9 +129,9 @@ export const theme: Theme = {
           hover: colors.greyCloud,
         },
         color: {
-          active: colors.connectButtons,
+          active: colors.connectButtonsHover,
           default: colors.greyMuted,
-          hover: colors.connectButtons,
+          hover: colors.connectButtonsHover,
           white: colors.white,
         },
       },
@@ -147,9 +147,9 @@ export const theme: Theme = {
           hover: colors.greyCloud,
         },
         color: {
-          active: colors.connectButtons,
+          active: colors.connectButtonsHover,
           default: colors.greyMuted,
-          hover: colors.connectButtons,
+          hover: colors.connectButtonsHover,
         },
       },
       primary: {
@@ -181,9 +181,9 @@ export const theme: Theme = {
           hover: colors.connectButtons,
         },
         color: {
-          active: colors.connectButtons,
+          active: colors.connectButtonsHover,
           default: colors.connectButtons,
-          hover: colors.connectButtons,
+          hover: colors.connectButtonsHover,
         },
       },
       social: {
@@ -198,9 +198,9 @@ export const theme: Theme = {
           hover: colors.greyCloud,
         },
         color: {
-          active: colors.connectButtons,
+          active: colors.connectButtonsHover,
           default: colors.greyMuted,
-          hover: colors.connectButtons,
+          hover: colors.connectButtonsHover,
         },
       },
     },
